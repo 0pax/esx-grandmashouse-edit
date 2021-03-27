@@ -2,8 +2,8 @@ ESX             = nil
 
 TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
-RegisterServerEvent('drp-grandmas-edited:payBill')
-AddEventHandler('drp-grandmas-edited:payBill', function()
+RegisterServerEvent('grandmashouse-edited:payBill')
+AddEventHandler('grandmashouse-edited:payBill', function()
     local src = source
 	local xPlayer = ESX.GetPlayerFromId(src)
 	--change price here for revive
