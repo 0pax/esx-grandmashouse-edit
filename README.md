@@ -1,6 +1,12 @@
 # esx-grandmashouse-edit
 A edited version of Livid_Fizz's original ESX Grandmashouse (https://forum.cfx.re/t/release-esx-grandmas-house-rp-revive/852182)
 
+
+# Dependecies
+- ESX
+- Mythic Notify (https://github.com/FlawwsX/mythic_notify)
+- Mythic Progressbar (https://github.com/HalCroves/mythic_progbar)
+
 # Changelog
 - Changed __resource.lua to fxmanifest.lua
 - Added a new config file, gives more flexibility for the script.
@@ -26,9 +32,4 @@ A edited version of Livid_Fizz's original ESX Grandmashouse (https://forum.cfx.r
     {x = 2433.91, y = 4965.50, z = 42} -- Location of the whole script
 }
 
--Config.Ped = 'a_f_m_eastsa_01' -- Change the grandma ped if you'd like
-
-# Dependecies
-- ESX
-- Mythic Notify (https://github.com/FlawwsX/mythic_notify)
-- Mythic Progressbar (https://github.com/HalCroves/mythic_progbar)
+- Config.Ped = 'a_f_m_eastsa_01' -- Change the grandma ped if you'd like
